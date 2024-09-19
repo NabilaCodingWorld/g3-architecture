@@ -2,3 +2,45 @@
   margin: 0;
   padding: 0;
 }
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  align-items: center;
+  margin: 10px 100px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.team img {
+  width: 100%;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+}
